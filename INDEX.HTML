@@ -6,14 +6,17 @@
     <title>IELTS </title>
     <link rel="stylesheet" href="STYLE.CSS">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header>   <!-- section 1 -->
+     <div>
     <nav1>
         <div class="logo">
             <img src="iot.jpg" id="navlogo">
         </div>
         <div class="mid logo">
-            <img src="logo.jpg " id="midlogo">
+            <img src="img1.jpg " id="midlogo">
         </div>
     <div id="navigation">
         <div id="menu" onclick="onClickMenu()">
@@ -21,14 +24,38 @@
          <div id="bar2" class="bar"></div>
           <div id="bar3" class="bar"></div>
     </div>
-    <ul class="nav" id="nav">
-        <li> <a href="#">Home</a></li>
-         <li> <a href="#">About</a></li>
-          <li> <a href="#">Review</a></li>
-           <li> <a href="#">Contect</a></li>
+    <ul class="nav" id="nav"><p>Menu</p>
+        <li> <a href="#">Home</a> <i class="fa-solid fa-house-user" id="icon"></i></li>
+         <li> <a href="#">About</a><i class="fa-solid fa-ellipsis"id="icon"></i></li>
+          <li> <a href="#">Review</a><i class="fa-solid fa-users-viewfinder"id="icon"></i></li>
+           <li> <a href="#">Contect</a><i class="fa-solid fa-at"id="icon"></i></li>
+            <li> <a href="#">Login</a><i class="fa-solid fa-circle-user"id="icon"></i></li>
+             <li> <a href="#">Feature Card</a><i class="fa-regular fa-clipboard"id="icon"></i></li>
     </ul>
     </div>
 </nav>
+</div>
+
+
+<!-- <div2 class="nav-search">
+    <h1>hello div</h1>
+
+</div> -->
+
+<!-- section 2 -->
+ <div class="container">
+  <div class="nav-search">
+                <select calss="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>  
+        </div>
+ 
+
 
     <script src="SCRIPT.JS"></script>
 </body>
