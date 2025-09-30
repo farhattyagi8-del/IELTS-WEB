@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif; 
-    background-color: rgb(251, 236, 235);
+    background-color: rgb(202, 197, 197);
     
 }
 nav1{
@@ -45,10 +45,11 @@ nav1{
     
     /* margin-top: 120px; */
 }
-p{
+.menu1{
     color: white;
     font-size: 50px;
     font-weight: 500;
+    margin-right: 100px;
     
 }
 #icon{
@@ -226,3 +227,154 @@ width: 100%;
 .nav-search:hover{
     border: 2px solid rgb(255, 174, 0);
 }
+
+
+/* section 3 */
+.herosection{
+    height: 600px;
+    width: 100%;
+     display: flex; 
+    background-image: url("back\ img2.jpg");
+    /* justify-content: center;
+    align-items: center; */
+    
+    
+
+}
+
+.heroimg{
+height: 600px;
+width: 30%;
+/* background-color: aqua; */
+background-image: cover;
+} 
+.img1{
+    height: 500px;
+    display: flex; 
+    margin-right: 40px;
+    margin-top: 100px;
+}
+.tar1{
+    border-radius: 120px;
+    height: 90px; 
+    width: 90px;
+    margin-top: 100px;
+    
+    
+}
+.heromsg{
+     justify-content: center;
+       height: 600px;
+      width: 80%; 
+       /* background-color: chartreuse; */
+        
+       
+     
+     
+
+}
+.target{
+    width: 100px;
+    height: 600px;
+    margin-left: 10px;
+}
+p{
+
+    color: azure;
+    display: flex;
+    margin-left: 80px;
+    font-size: 1.9rem;
+    }
+    h1{
+        color: white;
+        font-size: 3.9rem;
+        margin-left: 10px;
+        margin-top: 110px;
+        
+    }
+span{
+    color: darkorange;
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    font-size: 1rem;
+    background-color: darkorange;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    border: 2px solid black transparent;
+    
+    
+}
+button:hover{
+    border: 8px solid black;
+    text-decoration: 0.3s ease;
+}
+
+/* section4 */
+.section4{
+    height: 1000px;
+    width: 100%;
+    background-color: #8763db;
+    margin-top: 10px;
+}
+.banner-text{
+    display: flex;
+    height: 60px;
+    width: 80%;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-color: #8763db;
+    margin-left: 130px;
+    border-radius: 5px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    box-shadow: 0 6px 10px rgba(0.8, 0.8, 0.8, 0.8);
+}
+.banner-container{
+    background-image: url("ielts-coaching.webp");
+    height: 1000px;
+    width:100%;
+    object-fit: cover;
+     background-size: cover; 
+     background-position: center;
+     border-radius:4px ;
+     position: relative;
+     
+    
+}
+.banner-text a{
+    color: #007185;
+}
+
+/* section 5 */
+.feature-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 4px salmon solid;
+    height: 500px;
+    width: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
