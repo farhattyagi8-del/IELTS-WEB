@@ -771,6 +771,9 @@ button:hover{
      transform: translateX(-2px);
 }
 
+
+
+
 /* con review */
 .container4{
  margin: 0;
@@ -818,6 +821,7 @@ button:hover{
     aspect-ratio: 16 /9;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 .card-list .card-link .badge{
     color: blue;
@@ -875,67 +879,122 @@ button:hover{
     }
 }
 
+
+
+
+
+/* footer */
+
 footer{
-    margin-top: 15px;
+    margin-top: 8px;
 }
-.foot-panel4{
+
+ .confooter{
     height: 600px;
-    background-color: #24313f;
-    color: #ffffff;
+    width: 100%;
+    background-color: #092635;
+    
+
+ }
+ .footertext{
+    height: 600px;
+    width: 100%;
     display: flex;
-}
-.contact{
+ }
+
+ .textcontact{
     height: 600px;
     width: 30%;
-    background-color: #5a3e9d;
-    text-align: center;
-}
-.about{
-   height: 600px;
-    width: 70%;
-    background-color: #36a453;
-    text-decoration: n;
-
-}
-.contact text ul{
-    margin-top: 30px;
-    list-style: none;
-    margin: 0%;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    
+ }
+ .ultext{
     list-style: none;
     text-decoration: none;
-}
+    font-weight: 800;
+    margin-top: 120px;
+    
+ }
  a{
-    color: beige;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    list-style: none;
-}
+    font-size: 18px;
+    color: rgb(177, 197, 240);
+    transition: 0.3s ease;
+    
+ }
+ a:hover{
+    color: white;
+ }
+ 
+ li{
+    font-weight: 600;
+    margin: 19px;
+    margin-left: 125px;
+ }
 
+ .about{
+    height: 600px;
+    width: 70%;
 
-.foot-panel6{
-    background-color: #222f3d;
-    color: #ffffff;
-    border: 0.5px solid white;
-    height: 70px;
+    display: inline-block;
+ }
+ .abouttext{
+    margin-top: 100px;
+    color: rgb(232, 233, 234);
+    font-size: 15px;
+    font-weight: 200;
+    gap:5px;
+ }
+ .firstabout{
+    color: white;
+    font-size: 2rem;
+    margin-top: 95px;
+ }
+ .firstmission{
+    color: white;
+    font-size: 2rem;
+    margin-top: 95px;
+ }
+ .aboutmission{
+    margin-top: 80px;
+    color: rgb(232, 233, 234);
+    font-size: 15px;
+    font-weight: 200;
+    gap:5px;
+ }
+ .boottomlabel{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.lasttext{
-    font-size: 1rem;
-    background-color: #313461;
+    margin-top: 100px;
+    margin-left: 600px;
+    color: white;
+    cursor: pointer;
+    height: 100px;
+    width: 300px;
     align-items: center;
     justify-content: center;
-
+ }
+ .follow{
+    color: white;
+    font-weight: bold;  
+ }
+ .boottomlabel li{
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 10px;
+    font-size: 20px;
+ }
+ 
+ .lasttext{
     height: 100px;
     width: 100%;
+     background-color: #092635;
+    border: white 2px solid;
+    color: rgb(232, 233, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
-}
+ }
+ 
