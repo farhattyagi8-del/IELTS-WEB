@@ -13,7 +13,8 @@ nav1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
     justify-content: space-between;
     align-items: center;
-    position: sticky; 
+    position: sticky;
+
     
 }
 #navlogo{
@@ -268,7 +269,7 @@ span{
     color: darkorange;
 }
 
-button{
+.button1{
     height: 50px;
     width: 120px;
     font-size: 1rem;
@@ -284,7 +285,7 @@ button{
     border: 2px solid black transparent;
   
 }
-button:hover{
+.button1:hover{
     border: 8px solid black;
     text-decoration: 0.3s ease;
 }
@@ -775,109 +776,112 @@ button:hover{
 
 
 /* con review */
-.container4{
- margin: 0;
- padding: 0;
- background-color: #90b4bb;
- box-sizing: border-box;
- font-family: "Inter", sans-serif;
- display: flex;
- align-items: center;
- justify-content: center;
- min-height: 100vh;
- background: linear-gradient(rgb(182, 189, 247) rgb(254, 254, 54));
-}
-.card-list .card-item{
-    list-style: none;
 
-}
-.card-wrapper{
-    max-width: 1100px;
-    margin: 0 60px 35px;
-    padding: 20px 10px;
-    overflow: hidden;
-}
 
-.card-list .card-item .card-link{
-    user-select: none;
-    display: block;
-    background: #827a7a;
-    padding: 18px;
-    border-radius: 12px;
-    text-decoration: none;
-    border: 2px solid transparent;
-    transition: 0.3s ease;
-    box-shadow: 0 10px 10px rgb(135, 6, 107);
-}
-.card-list .card-item .card-link:active{
-    cursor: grabbing;
-}
+ .conreview{
+    min-height: 100vh;
+    background-color: #65a9a1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-top: 100px;
+    
+    
+    
+    
+ }
+ .card{
+    height: 600px;
+    width: 350px;
+    /* background-color: #007185; */
+    
+ }
+ .cardtext{
+     font-size: 18px;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     color: #303233;
+     padding-top: 10px;
+      font-family: "inter", "robot", "helvetica", sans-serif;
+     margin: 0 0 20px;
 
-.card-list .card-item .card-link:hover{
-    border-color: brown;
-}
-.card-list .card-link .card-image{
+ }
+   .name{
+    height: 80px;
     width: 100%;
-    aspect-ratio: 16 /9;
-    object-fit: cover;
-    border-radius: 10px;
-    
-}
-.card-list .card-link .badge{
-    color: blue;
-    margin: 16px 0 18px;
-    padding: 8px 16px ;
-    font-size: 0.95rem;
-    font-weight: 500;
-    background: #2a9d8f;
-    border-radius: 50px;
-    
-}
-.card-list .card-link  .card-title{
-    font-size: 1 .19rem;
-    color: #eda546;
-    font-weight: 600;
-}
-.card-list .card-link  .card-button{
-    height: 35px;
-    width: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+     font-family: "inter", "robot", "helvetica", sans-serif;
+
+   } 
+
+ .card-img{
+    height: 210px;
+    width: 100%;
+    background-color: #a197ba;
+    border-radius: 25px 25px 0 0;
+ }
+.card-img img{
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    margin: 30px 0 5px;
-    color: #8763db;
-    border: 2px solid purple;
-    background: none;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 24px;
+    border: 4px solid blue;
+}
+.textname{
+    height: 300px;
+    width: 100%;
+    background-color: #95c;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    border-radius: 0  0 25px 25px ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.viewmessage{
+     font-size: 15px;
+    font-weight: bolder;
+    margin: 0 0 150px 0;
+    display: flex;
+    gap: 10px;
+   padding: 10px 0 0 0 ;
+    font-family: "inter", "robot", "helvetica", sans-serif;
+   text-align: center;
+
+    
+}
+.viewbutton{
+    height: 45px;
+    width: 110px;
+    background-color: #2a9d8f;
+    align-items: flex-end; 
+    font-weight:bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    color:rgb(205, 198, 198);
     cursor: pointer;
-    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: color rgb(55, 55, 109);
+    
+    border: none;
+
 }
-.card-list .card-link:hover  .card-button{
-  color: #2d0687;
-  background: antiquewhite;
+.viewbutton:hover{
+    background-color: #2d0687;
+    text-decoration: 0.3s ease;
+     transform: translateX(-2px);
 }
 
-.card-wrapper .card-pagination-bullet{
-    height: 13px;
-    width: 13px;
-    opacity: 0.5;
-    background: #007185;
-}
-.card-wrapper .card-pagination-bullet-active{
-    opacity: 1;
-}
-.card-wrapper.swiper-slide-button{
-  color: #8763db;
-  margin-top: -35px;
-
-
-} 
-
-@media  (max-width: px){
-    .container{
-        margin: 0 10px 25px;
-    }
-    .card-wrapper .swiper-slide-button{
-        display: none;
-    }
-}
 
 
 
