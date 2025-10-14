@@ -1,9 +1,9 @@
-// import { SAMLAuthProvider } from "firebase/auth/web-extension"
+//  import { SAMLAuthProvider } from "firebase/auth/web-extension"
 
-// function onClickMenu(){
-//     document.getElementById("menu").classList.toggle("icon")
-//      document.getElementById("nav").classList.toggle("change")
-// }
+function onClickMenu(){
+    document.getElementById("menu").classList.toggle("icon")
+     document.getElementById("nav").classList.toggle("change")
+ }
 
 
 // var swiper = new Swiper("slide-container",{
