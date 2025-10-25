@@ -1,4 +1,14 @@
-//  import { SAMLAuthProvider } from "firebase/auth/web-extension"
+
+window.addEventListener('load',() => {
+    let userAnswer = prompt("solve this : 2 + 5 = ?");
+
+    if (userAnswer == "7"){
+        alert("congratulation!," + "you can visit it ");
+    }else{
+        alert(" Worng answer! Try again");
+    }
+});
+        
 
 function onClickMenu(){
     document.getElementById("menu").classList.toggle("icon")
@@ -6,21 +16,6 @@ function onClickMenu(){
  }
 
 
-// var swiper = new Swiper("slide-container",{
-//   slidesPerView: 3,
-//   spaceBetween: 30,
-//   slidesPerGroup: 3,
-//   loop: true,
-//   loopFillGroupWithBlank: true, 
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
 
 const slides = document.querySelectorAll ('.testimonial-slide');
 const dots = document.querySelectorAll ('.dot');
@@ -50,4 +45,13 @@ rightArrow.addEventListener('click', () => {
 });
 
 showSlide(0);
+
+// const reviewlink = document.getElementById('review-link');
+// const cardSection = document.getElementById('.view-card');
+// reviewlink.addEventListener('click', () =>{
+//     cardSection.scrollIntoView({
+//         behavior: "smooth",
+//         block: 'start'
+//     });
+// });
 
