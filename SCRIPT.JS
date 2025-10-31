@@ -1,13 +1,13 @@
 
-window.addEventListener('load',() => {
-    let userAnswer = prompt("solve this : 2 + 5 = ?");
+// window.addEventListener('load',() => {
+//     let userAnswer = prompt("solve this : 2 + 5 = ?");
 
-    if (userAnswer == "7"){
-        alert("congratulation!," + "you can visit it ");
-    }else{
-        alert(" Worng answer! Try again");
-    }
-});
+//     if (userAnswer == "7"){
+//         alert("congratulation!," + "you can visit it ");
+//     }else{
+//         alert(" Worng answer! Try again");
+//     }
+// });
         
 
 function onClickMenu(){
